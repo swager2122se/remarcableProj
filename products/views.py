@@ -2,7 +2,6 @@ from django.shortcuts import render
 
 from products.models import Product, Tag, Category
 
-# Create your views here.
 def product_list(request):
     
     category_id = request.GET.get('category')
